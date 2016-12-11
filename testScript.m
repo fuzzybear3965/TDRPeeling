@@ -23,7 +23,7 @@ orig_ref_coeffs = [...
 
 fprintf('\t------- Generating reflected voltage signals. -------\n');
 ref_voltage_signal = ...
-reflectionCoefficientsToReflectedVoltageSignal(orig_ref_coeffs,10   );
+reflectionCoefficientsToReflectedVoltageSignal(orig_ref_coeffs,11   );
 fprintf('\t------- Finished generating reflected voltage signal. -------\n');
 
 ref_coeffs = zeros(length(ref_voltage_signal),4);
